@@ -1,5 +1,3 @@
-import EditorPreviewAsyncAPIPlugin from 'swagger-editor/plugins/editor-preview-asyncapi';
-
 window.onload = function() {
   //<editor-fold desc="Changeable Configuration Block">
 
