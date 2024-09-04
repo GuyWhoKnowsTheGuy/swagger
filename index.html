@@ -15,6 +15,11 @@
     <script src="dist/swagger-ui-bundle.js" charset="UTF-8"> </script>
     <script src="dist/swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
     <script src="dist/swagger-initializer.js" charset="UTF-8"> </script>
+    <script>
+      ui = SwaggerUIBundle({});
+      // expose SwaggerUI React globally for SwaggerEditor to use
+      window.React = ui.React;
+    </script>
     <script src="//unpkg.com/swagger-editor@5.0.0-alpha.96/dist/umd/swagger-editor.js"></script>
   </body>
 </html>
