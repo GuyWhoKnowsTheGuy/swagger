@@ -8,6 +8,7 @@ window.onload = function() {
     deepLinking: true,
     presets: [
       SwaggerUIBundle.presets.apis,
+      EditorPreviewAsyncAPIPlugin,
       SwaggerUIStandalonePreset
     ],
     plugins: [
