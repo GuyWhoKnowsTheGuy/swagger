@@ -11,8 +11,11 @@ window.onload = function() {
       SwaggerUIStandalonePreset
     ],
     plugins: [
+      SwaggerEditor.plugins.EditorContentType,
       SwaggerEditor.plugins.EditorPreviewAsyncAPI,
-      SwaggerUIBundle.plugins.DownloadUrl
+      SwaggerEditor.plugins.EditorPreviewApiDesignSystems,
+      SwaggerEditor.plugins.SwaggerUIAdapter,
+      SwaggerUIBundle.plugins.DownloadUrl,
     ],
     layout: "StandaloneLayout"
   });
